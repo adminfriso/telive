@@ -136,7 +136,7 @@ install_gnuradio() {
 		"linuxmint 18.2")
 			sudo apt-get -y install gnuradio gnuradio-dev gr-osmosdr gr-iqbal gqrx-sdr && return 0
 			;;
-		"raspbian 8")
+		"raspbian 8"|"raspbian 10")
 			sudo apt-get -y install gnuradio gnuradio-dev gr-osmosdr gr-iqbal gqrx-sdr && return 0
 			;;
 		"debian 8"|"debian 9"|"debian 10")
